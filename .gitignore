@@ -52,3 +52,5 @@ backup_*
 
 # Test files
 test_*
+
+.env.production
