@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "sass resources/sass/app.scss public/css/app.css --style=expanded",
+        "watch": "sass --watch resources/sass/app.scss public/css/app.css --style=expanded",
+        "prod": "npm run production",
+        "production": "sass resources/sass/app.scss public/css/app.css --style=compressed"
+    },
+    "devDependencies": {
+        "sass": "^1.69.0"
+    }
+}

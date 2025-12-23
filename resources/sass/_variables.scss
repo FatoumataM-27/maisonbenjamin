@@ -1,0 +1,47 @@
+// Couleurs de la charte graphique Maison Benjamin
+$primary: #6667ad;    // Bleu violacé principal (55%)
+$secondary: #c1965d;  // Doré principal (25%)
+$dark: #212529;       // Noir pour le texte
+$light: #F8F9FA;      // Blanc pour les fonds
+$white: #FFFFFF;      // Blanc pur
+$gray-100: #F8F9FA;
+$gray-200: #E9ECEF;
+$gray-300: #DEE2E6;
+$gray-400: #CED4DA;
+$gray-500: #ADB5BD;
+$gray-600: #6C757D;
+$gray-700: #495057;
+$gray-800: #343A40;
+$gray-900: #212529;
+
+// Couleurs spécifiques pour chaque entité
+$ueea-color: #85B125;    // Vert pour UEEA
+$uema-color: #ec6726;    // Orange pour UEMA
+$emasco-color: #961478;  // Violet pour EMASCO
+$ime-impro-color: #24A5C4; // Bleu pour IME-IMPRO
+$sessad-color: #D30240;  // Rouge pour SESSAD
+$mas-color: #34B961;     // Vert pour MAS
+
+// Typographie
+$font-family-sans-serif: 'Barlow', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: 'Core Mellow', serif;
+$headings-font-weight: 500;
+
+// Espacement
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+);
+
+// Border radius
+$border-radius: 0.5rem;
+$border-radius-lg: 0.75rem;
+$border-radius-sm: 0.25rem;

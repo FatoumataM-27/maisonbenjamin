@@ -1,0 +1,23 @@
+﻿<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase 
+
+    # Si le fichier dossier existe, on le sert directement
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Sinon, on route vers Laravel
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Protection des fichiers sensibles
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "*.log">
+    Order allow,deny  
+    Deny from all
+</Files>

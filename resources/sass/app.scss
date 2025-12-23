@@ -1,0 +1,491 @@
+// Variables
+@use 'variables' as *;
+@use 'sass:color';
+
+// Polices Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Core+Mellow:wght@400;500;600;700&display=swap');
+
+// Styles personnalisés
+body {
+  font-family: $font-family-base;
+  color: $dark;
+  background-color: $light;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+// Styles de l'en-tête
+.navbar {
+  background-color: $white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+  .navbar-brand {
+    font-weight: 700;
+    color: $primary;
+    
+    .fs-4 {
+      font-family: $headings-font-family;
+      letter-spacing: 0.5px;
+    }
+    
+    .fs-6 {
+      font-family: $font-family-base;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: $gray-700;
+    
+    &:hover, &.active {
+      color: $primary;
+    }
+  }
+}
+
+// Styles des titres
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $primary;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+// Style des boutons
+// Boutons selon la charte graphique officielle
+.btn {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  padding: 0.5rem 1.5rem;
+  border-radius: $border-radius;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+// 1️⃣ Bouton principal (action prioritaire)
+.btn-primary {
+  background-color: #c1965d; // Doré #c1965d
+  color: #ffffff; // Texte blanc
+  
+  &:hover {
+    background-color: #b08952; // Doré légèrement foncé
+  }
+}
+
+// 2️⃣ Bouton secondaire
+.btn-secondary {
+  background-color: #6667ad; // Bleu violacé #6667ad
+  color: #ffffff; // Texte blanc
+  
+  &:hover {
+    background-color: #56579a; // Bleu violacé légèrement foncé
+  }
+}
+
+// 2️⃣ Bouton outline secondaire
+.btn-outline-primary {
+  background-color: transparent;
+  color: #6667ad; // Bleu violacé #6667ad
+  border: 2px solid #6667ad;
+  
+  &:hover {
+    background-color: #6667ad;
+    color: #ffffff;
+  }
+}
+
+// 3️⃣ Bouton tertiaire (optionnel/discret)
+.btn-outline-secondary {
+  background-color: transparent;
+  color: #6667ad; // Bleu violacé #6667ad
+  border: 2px solid #6667ad;
+  
+  &:hover {
+    background-color: #f0f0f5; // Fond très léger
+    text-decoration: underline;
+  }
+}
+
+// Boutons liés aux entités/services
+.btn-ueea {
+  background-color: #85B125; // Vert UEEA
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#85B125, $lightness: -10%);
+  }
+}
+
+.btn-uema {
+  background-color: #ec6726; // Orange UEMA
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#ec6726, $lightness: -10%);
+  }
+}
+
+.btn-emasco {
+  background-color: #961478; // Violet EMASCO
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#961478, $lightness: -10%);
+  }
+}
+
+.btn-ime {
+  background-color: #24A5C4; // Bleu IME-IMPRO
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#24A5C4, $lightness: -10%);
+  }
+}
+
+/* Styles pour les liens de navigation */
+.nav-link {
+  color: var(--text-dark);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  
+  &:hover {
+    color: var(--primary);
+    background-color: rgba(218, 165, 32, 0.1);
+  }
+  
+  &.active {
+    color: var(--primary);
+    background-color: rgba(218, 165, 32, 0.15);
+    font-weight: 600;
+  }
+}
+
+/* Breadcrumb pour la navigation */
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  
+  .breadcrumb-item {
+    color: #6c757d;
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--primary);
+    }
+    
+    &.active {
+      color: var(--primary);
+      font-weight: 600;
+    }
+    
+    a {
+      color: inherit;
+      
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+}
+
+/* Lien de retour */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  
+  &:hover {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+  
+  i {
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Styles pour les logos des partenaires */
+.partner-logo {
+  max-height: 80px;
+  max-width: 150px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  
+  &:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.btn-sessad {
+  background-color: #D30240; // Rouge SESSAD
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#D30240, $lightness: -10%);
+  }
+}
+
+.btn-mas {
+  background-color: #34B961; // Vert MAS
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#34B961, $lightness: -10%);
+  }
+}
+
+// Bouton succès (conservé pour compatibilité)
+.btn-success {
+  background-color: #28a745;
+  color: #ffffff;
+  
+  &:hover {
+    background-color: color.adjust(#28a745, $lightness: -10%);
+  }
+}
+
+// Style du pied de page
+footer {
+  background-color: $primary;
+  color: $white;
+  padding: 3rem 0;
+  
+  h5 {
+    font-family: $headings-font-family;
+    color: $white;
+    margin-bottom: 1.5rem;
+  }
+  
+  a {
+    color: $gray-200;
+    
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+// Styles spécifiques à la page d'accueil
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: $white;
+  overflow: hidden;
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: $white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  
+  .btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 2rem;
+    text-shadow: none;
+  }
+}
+
+.hero-section {
+  background: linear-gradient(135deg, $primary 0%, color.adjust($primary, $lightness: -20%) 100%);
+  color: $white;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.hero-section-sm {
+  padding: 4rem 0;
+}
+
+// Styles pour les cartes
+.card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-family: $headings-font-family;
+    font-weight: 500;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+}
+
+// Style pour le logo
+.logo-hand {
+  color: $secondary;
+}
+
+// Styles pour les sections
+.section {
+  padding: 5rem 0;
+  
+  h2 {
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background-color: $secondary;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+// Styles pour les dispositifs et structures
+.structure-card, .dispositive-card {
+  margin-bottom: 2rem;
+  
+  img {
+    border-radius: $border-radius;
+  }
+}
+
+// Animation pour les éléments interactifs
+.animate-hover {
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Styles spécifiques pour les dispositifs
+.ueea-color {
+  color: $ueea-color;
+}
+
+.uema-color {
+  color: $uema-color;
+}
+
+.emasco-color {
+  color: $emasco-color;
+}
+
+.bg-ueea {
+  background-color: $ueea-color;
+}
+
+.bg-uema {
+  background-color: $uema-color;
+}
+
+.bg-emasco {
+  background-color: $emasco-color;
+}
+
+// Styles pour les formes polygonales
+.polygon-shape {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.15;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+// Classes utilitaires
+.text-primary { color: $primary !important; }
+.text-secondary { color: $secondary !important; }
+.bg-primary { background-color: $primary !important; }
+.bg-secondary { background-color: $secondary !important; }
+.bg-light { background-color: $light !important; }
+
+// Responsive
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .hero-section {
+    padding: 4rem 0;
+  }
+  
+  .hero-section-sm {
+    padding: 3rem 0;
+  }
+}
