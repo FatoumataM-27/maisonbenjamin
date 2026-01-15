@@ -27,6 +27,15 @@ Route::get('/nos-valeurs', function () {
     return view('association.valeurs');
 })->name('association.valeurs');
 
+// Redirections pour anciens liens de l'association
+Route::get('/association/histoire', function () {
+    return redirect('/notre-histoire');
+});
+
+Route::get('/association/valeurs', function () {
+    return redirect('/nos-valeurs');
+});
+
 // Nos services
 Route::get('/services', function () {
     return view('services.index');

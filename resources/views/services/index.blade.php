@@ -2,7 +2,7 @@
 
 @section('title', 'Nos services')
 
-@section('meta_description', 'Découvrez les services de Maison Benjamin : IME/IMPRO, SESSAD, et PICORS pour l\'accompagnement des enfants et jeunes en situation de handicap.')
+@section('meta_description', 'Découvrez les services de Maison Benjamin : IME/IMPRO, SESSAD, PICORS et MAS pour l\'accompagnement des enfants et jeunes en situation de handicap.')
 
 @section('content')
     <!-- Breadcrumb -->
@@ -64,6 +64,20 @@
                     <p class="card-text">Pôle de Coordination et d'Organisation des Réponses de Secteur qui coordonne les dispositifs spécialisés pour l'inclusion scolaire.</p>
                     <div class="text-center mt-4">
                         <a href="{{ url('/services/picors') }}" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-hospital fa-4x text-primary"></i>
+                    </div>
+                    <h3 class="card-title text-center mb-3">MAS</h3>
+                    <p class="card-text">Maison d'Accueil Spécialisée offrant un accompagnement global et des soins permanents pour adultes en situation de handicap.</p>
+                    <div class="text-center mt-4">
+                        <a href="{{ url('/services/mas') }}" class="btn btn-primary">Découvrir</a>
                     </div>
                 </div>
             </div>

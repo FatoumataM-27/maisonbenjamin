@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="row g-4">
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
@@ -79,6 +79,18 @@
                             <h3 class="card-title h5">PICORS</h3>
                             <p class="card-text text-muted">Pôle de coordination pour l'inclusion scolaire avec des dispositifs spécialisés.</p>
                             <a href="{{ url('/services/picors') }}" class="btn btn-outline-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <div class="mb-3">
+                                <i class="fas fa-hospital fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="card-title h5">MAS</h3>
+                            <p class="card-text text-muted">Maison d'Accueil Spécialisée pour adultes nécessitant un accompagnement et des soins permanents.</p>
+                            <a href="{{ url('/services/mas') }}" class="btn btn-outline-primary">En savoir plus</a>
                         </div>
                     </div>
                 </div>

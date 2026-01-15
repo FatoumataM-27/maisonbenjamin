@@ -596,8 +596,8 @@
                     <h5 class="text-white">Liens rapides</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="{{ url('/') }}" class="text-decoration-none">Accueil</a></li>
-                        <li class="mb-2"><a href="{{ url('/association/histoire') }}" class="text-decoration-none">Notre Histoire</a></li>
-                        <li class="mb-2"><a href="{{ url('/association/valeurs') }}" class="text-decoration-none">Nos Valeurs</a></li>
+                        <li class="mb-2"><a href="{{ url('/notre-histoire') }}" class="text-decoration-none">Notre Histoire</a></li>
+                        <li class="mb-2"><a href="{{ url('/nos-valeurs') }}" class="text-decoration-none">Nos Valeurs</a></li>
                         <li class="mb-2"><a href="{{ url('/services') }}" class="text-decoration-none">Nos Services</a></li>
                         <li class="mb-2"><a href="{{ url('/services/picors') }}" class="text-decoration-none">PICORS</a></li>
                         <li class="mb-2"><a href="{{ url('/services/mas') }}" class="text-decoration-none">MAS</a></li>
@@ -669,4 +669,3 @@
     @stack('scripts')
 </body>
 </html>
-
