@@ -18,9 +18,8 @@ class HomeController extends Controller
         $latestPosts = [];
         
         try {
-            // Tenter de récupérer les derniers articles WordPress
-            $latestPosts = WordPressPost::where('post_type', 'post')
-                ->where('post_status', 'publish')
+            // Tenter de récupérer les derniers articles WordPress via le scope
+            $latestPosts = WordPressPost::published()
                 ->orderBy('post_date', 'desc')
                 ->limit(3)
                 ->get(['ID', 'post_title', 'post_excerpt', 'post_date', 'post_name']);

@@ -1,0 +1,250 @@
+
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\brick\math
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:04                .github
+    Répertoire:
+    C:\Users\Angelique\maisonbejaminsite\vendor\carbonphp\carbon-doctrine-types
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:57                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:58                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Auth
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Broadcasting
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Bus
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Cache
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Collections
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Conditionable
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Config
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Console
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Container
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Contracts
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Cookie
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Database
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Encryption
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Events
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Filesystem
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Hashing
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Http
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Log
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Macroable
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Mail
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Notifications
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Pagination
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Pipeline
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Process
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Queue
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Redis
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Routing
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Session
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Support
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Testing
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Translation
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:00                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\Validation
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:59                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\laravel\framework\s
+    rc\Illuminate\View
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:58                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\laravel\prompts
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:01                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\laravel\sanctum
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:58                .github
+    Répertoire:
+    C:\Users\Angelique\maisonbejaminsite\vendor\laravel\serializable-closure
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     12:58                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\nesbot\carbon
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:04                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\nunomaduro\termwind
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:02                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\console
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:07                .github
+    Répertoire:
+    C:\Users\Angelique\maisonbejaminsite\vendor\symfony\error-handler
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:05                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\finder
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:05                .github
+    Répertoire:
+    C:\Users\Angelique\maisonbejaminsite\vendor\symfony\http-foundation
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:06                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\symfony\http-kernel
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:08                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\mailer
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:07                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\mime
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:05                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\process
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:07                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\routing
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:06                .github
+    Répertoire: C:\Users\Angelique\maisonbejaminsite\vendor\symfony\translation
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:05                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\uid
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:05                .github
+    Répertoire : C:\Users\Angelique\maisonbejaminsite\vendor\symfony\var-dumper
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/12/2025     13:07                .github

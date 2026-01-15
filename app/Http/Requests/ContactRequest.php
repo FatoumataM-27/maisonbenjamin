@@ -24,10 +24,10 @@ class ContactRequest extends FormRequest
     public function rules()
     {
         return [
-            'nom' => 'required|string|max:100|regex:/^[a-zA-ZÀ-ÿ\s\-\']+$/',
-            'prenom' => 'nullable|string|max:100|regex:/^[a-zA-ZÀ-ÿ\s\-\']+$/',
-            'email' => 'required|email:rfc,dns|max:255',
-            'telephone' => 'nullable|string|max:20|regex:/^[0-9\s\-\+\(\)\.]+$/',
+            'nom' => 'required|string|max:100',
+            'prenom' => 'nullable|string|max:100',
+            'email' => 'required|email|max:255',
+            'telephone' => 'nullable|string|max:20',
             'sujet' => 'required|string|max:200',
             'message' => 'required|string|min:10|max:2000',
             'g-recaptcha-response' => 'nullable|string',

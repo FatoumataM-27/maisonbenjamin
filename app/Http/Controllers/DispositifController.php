@@ -29,17 +29,14 @@ class DispositifController extends Controller
     {
         $dispositif = Dispositif::where('slug', $slug)->where('actif', true)->firstOrFail();
         
-        // Retourner la vue correspondante selon le slug
-        switch ($slug) {
-            case 'ueea':
-                return view('dispositifs.ueea', compact('dispositif'));
-            case 'uema':
-                return view('dispositifs.uema', compact('dispositif'));
-            case 'emasco':
-                return view('dispositifs.emasco', compact('dispositif'));
-            default:
-                abort(404);
+        // On essaye de trouver une vue spécifique au slug, sinon on utilise une vue générique
+        $viewName = "dispositifs.{$slug}";
+        
+        if (view()->exists($viewName)) {
+            return view($viewName, compact('dispositif'));
         }
+
+        return view('dispositifs.show', compact('dispositif'));
     }
 
     /**

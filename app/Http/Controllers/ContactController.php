@@ -44,7 +44,8 @@ class ContactController extends Controller
 
         // Envoi de l'email
         try {
-            Mail::to(config('mail.contact.address', 'comm@maisonbenjamin.org'))
+            $recipient = config('mail.from.address');
+            Mail::to($recipient)
                 ->send(new ContactFormMail($request->all()));
 
             if ($request->ajax()) {

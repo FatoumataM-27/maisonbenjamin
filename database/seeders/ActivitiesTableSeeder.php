@@ -51,7 +51,7 @@ class ActivitiesTableSeeder extends Seeder
             ],
             [
                 'nom' => 'Conditionnement',
-                'description' => 'Ateliers de conditionnement et d\'emballage',
+                'description' => 'Ateliers de conditionnement et d\'emballage pour développer l\'autonomie et la rigueur',
                 'categorie' => 'Professionnel',
                 'places_disponibles' => 10
             ],

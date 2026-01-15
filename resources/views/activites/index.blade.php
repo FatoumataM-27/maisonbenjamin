@@ -48,7 +48,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-palette fa-3x text-primary"></i>
+                                <i class="fas fa-palette fa-3x text-success"></i>
                             </div>
                             <h3 class="card-title h5">Activités créatives</h3>
                             <p class="card-text text-muted">Art-thérapie, peinture, dessin, sculpture, musique pour développer l'expression créative et la confiance en soi.</p>
@@ -59,7 +59,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-heart fa-3x text-primary"></i>
+                                <i class="fas fa-heart fa-3x text-danger"></i>
                             </div>
                             <h3 class="card-title h5">Activités thérapeutiques</h3>
                             <p class="card-text text-muted">Relaxation, sophrologie, psychomotricité pour favoriser le bien-être et l'équilibre émotionnel.</p>
@@ -70,7 +70,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-users fa-3x text-primary"></i>
+                                <i class="fas fa-users fa-3x text-info"></i>
                             </div>
                             <h3 class="card-title h5">Activités sociales</h3>
                             <p class="card-text text-muted">Jeux de groupe, sorties culturelles, sports collectifs pour développer les compétences relationnelles.</p>
@@ -106,7 +106,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-music fa-2x text-primary"></i>
+                                <i class="fas fa-music fa-2x text-warning"></i>
                             </div>
                             <h4 class="card-title h6">Atelier Musique</h4>
                             <p class="card-text small text-muted">Découverte des instruments, chant et rythme pour stimuler la créativité et la coordination.</p>
@@ -117,7 +117,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-running fa-2x text-primary"></i>
+                                <i class="fas fa-running fa-2x text-success"></i>
                             </div>
                             <h4 class="card-title h6">Activités Sportives</h4>
                             <p class="card-text small text-muted">Sports adaptés, jeux collectifs et activités physiques pour développer la motricité et l'esprit d'équipe.</p>
@@ -161,7 +161,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-theater-masks fa-2x text-primary"></i>
+                                <i class="fas fa-theater-masks fa-2x text-info"></i>
                             </div>
                             <h4 class="card-title h6">Théâtre</h4>
                             <p class="card-text small text-muted">Jeux de rôle et expression théâtrale pour développer la communication et la confiance en soi.</p>
@@ -172,7 +172,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-heart fa-2x text-primary"></i>
+                                <i class="fas fa-heart fa-2x text-danger"></i>
                             </div>
                             <h4 class="card-title h6">VRAS – Vie relationnelle, affective et sexuelle</h4>
                             <p class="card-text small text-muted">Accompagnement pour le développement d'une vie affective et relationnelle équilibrée.</p>
@@ -183,7 +183,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-leaf fa-2x text-primary"></i>
+                                <i class="fas fa-leaf fa-2x text-success"></i>
                             </div>
                             <h4 class="card-title h6">Jardin sensoriel</h4>
                             <p class="card-text small text-muted">Activités de jardinage pour stimuler les sens et développer la patience et la concentration.</p>
@@ -194,7 +194,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-users fa-2x text-primary"></i>
+                                <i class="fas fa-users fa-2x text-info"></i>
                             </div>
                             <h4 class="card-title h6">Habiletés sociales</h4>
                             <p class="card-text small text-muted">Ateliers pour développer les compétences de communication et d'interaction sociale.</p>
@@ -205,7 +205,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-music fa-2x text-primary"></i>
+                                <i class="fas fa-music fa-2x text-warning"></i>
                             </div>
                             <h4 class="card-title h6">Musicothérapie</h4>
                             <p class="card-text small text-muted">Expression et communication à travers la musique pour le bien-être émotionnel.</p>
@@ -216,7 +216,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-comments fa-2x text-primary"></i>
+                                <i class="fas fa-comments fa-2x text-secondary"></i>
                             </div>
                             <h4 class="card-title h6">Groupe langage</h4>
                             <p class="card-text small text-muted">Ateliers de stimulation du langage et de la communication verbale.</p>
@@ -238,10 +238,10 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-dumbbell fa-2x text-primary"></i>
+                                <i class="fas fa-box fa-2x text-dark"></i>
                             </div>
                             <h4 class="card-title h6">Conditionnement</h4>
-                            <p class="card-text small text-muted">Activités physiques adaptées pour développer la force et l'endurance.</p>
+                            <p class="card-text small text-muted">Ateliers de conditionnement et d'emballage pour développer l'autonomie et la rigueur.</p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-child fa-2x text-primary"></i>
+                                <i class="fas fa-child fa-2x text-info"></i>
                             </div>
                             <h4 class="card-title h6">Expression corporelle</h4>
                             <p class="card-text small text-muted">Ateliers de mouvement et d'expression par le corps pour la confiance en soi.</p>
@@ -260,7 +260,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-palette fa-2x text-primary"></i>
+                                <i class="fas fa-palette fa-2x text-success"></i>
                             </div>
                             <h4 class="card-title h6">Arts plastiques</h4>
                             <p class="card-text small text-muted">Créations artistiques variées pour développer la créativité et la motricité fine.</p>
@@ -271,7 +271,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-spa fa-2x text-primary"></i>
+                                <i class="fas fa-spa fa-2x text-danger"></i>
                             </div>
                             <h4 class="card-title h6">Bien-être</h4>
                             <p class="card-text small text-muted">Activités de relaxation et de développement personnel pour l'équilibre intérieur.</p>
@@ -282,7 +282,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-spa fa-2x text-primary"></i>
+                                <i class="fas fa-spa fa-2x text-warning"></i>
                             </div>
                             <h4 class="card-title h6">Yoga</h4>
                             <p class="card-text small text-muted">Pratique du yoga pour la flexibilité, la concentration et le bien-être corporel.</p>
@@ -293,7 +293,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-shopping-cart fa-2x text-primary"></i>
+                                <i class="fas fa-shopping-cart fa-2x text-secondary"></i>
                             </div>
                             <h4 class="card-title h6">Courses</h4>
                             <p class="card-text small text-muted">Préparation de l'atelier cuisine pour développer l'autonomie et l'organisation.</p>
@@ -315,7 +315,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-paw fa-2x text-primary"></i>
+                                <i class="fas fa-paw fa-2x text-dark"></i>
                             </div>
                             <h4 class="card-title h6">Médiation animale</h4>
                             <p class="card-text small text-muted">Activités avec des animaux pour développer l'empathie et la communication.</p>
@@ -326,7 +326,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-music fa-2x text-primary"></i>
+                                <i class="fas fa-music fa-2x text-danger"></i>
                             </div>
                             <h4 class="card-title h6">Musique</h4>
                             <p class="card-text small text-muted">Ateliers musicaux pour l'expression créative et le développement rythmique.</p>
@@ -337,7 +337,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-theater-masks fa-2x text-primary"></i>
+                                <i class="fas fa-theater-masks fa-2x text-success"></i>
                             </div>
                             <h4 class="card-title h6">Théâtre</h4>
                             <p class="card-text small text-muted">Jeux de rôle et expression théâtrale pour développer la confiance et la communication.</p>
@@ -348,7 +348,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-tools fa-2x text-primary"></i>
+                                <i class="fas fa-tools fa-2x text-info"></i>
                             </div>
                             <h4 class="card-title h6">Travaux manuels</h4>
                             <p class="card-text small text-muted">Activités manuelles pour développer la dextérité et la concentration.</p>
@@ -359,10 +359,10 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-utensils fa-2x text-primary"></i>
+                                <i class="fas fa-utensils fa-2x text-warning"></i>
                             </div>
                             <h4 class="card-title h6">Cuisine des chefs</h4>
-                            <p class="card-text small text-muted">Atelier cuisine accompagné par la chef étoilée Ghislaine Arabian.</p>
+                            <p class="card-text small text-muted">Atelier cuisine accompagné par la cheffe étoilée Ghislaine ARABIAN.</p>
                         </div>
                     </div>
                 </div>
@@ -370,7 +370,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-palette fa-2x text-primary"></i>
+                                <i class="fas fa-palette fa-2x text-secondary"></i>
                             </div>
                             <h4 class="card-title h6">Kaléidoscope</h4>
                             <p class="card-text small text-muted">Atelier arts et décoration des locaux pour un environnement créatif et coloré.</p>
@@ -392,7 +392,7 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body p-4 text-center">
                             <div class="mb-3">
-                                <i class="fas fa-tshirt fa-2x text-primary"></i>
+                                <i class="fas fa-tshirt fa-2x text-dark"></i>
                             </div>
                             <h4 class="card-title h6">Blanchisserie</h4>
                             <p class="card-text small text-muted">Activités d'entretien du linge pour développer l'autonomie domestique.</p>

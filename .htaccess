@@ -1,15 +1,31 @@
 ﻿<IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase 
-
-    # Si le fichier dossier existe, on le sert directement
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
-    RewriteCond %{REQUEST_FILENAME} -d
-    RewriteRule ^ - [L]
-
-    # Sinon, on route vers Laravel
-    RewriteRule ^ index.php [L]
+    
+    # Forcer le HTTPS
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    
+    # Rediriger tout vers le dossier public
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+    
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ public/index.php [L]
 </IfModule>
+
+# Bloquer l'accès aux dossiers sensibles
+RedirectMatch 404 ^/app(/|$)
+RedirectMatch 404 ^/bootstrap(/|$)
+RedirectMatch 404 ^/config(/|$)
+RedirectMatch 404 ^/database(/|$)
+RedirectMatch 404 ^/resources(/|$)
+RedirectMatch 404 ^/routes(/|$)
+RedirectMatch 404 ^/storage(/|$)
+RedirectMatch 404 ^/tests(/|$)
+RedirectMatch 404 ^/vendor(/|$)
 
 # Protection des fichiers sensibles
 <Files ".env">
@@ -21,3 +37,7 @@
     Order allow,deny  
     Deny from all
 </Files>
+
+# Paramètres PHP pour OVH
+SetEnv PHP_VER 8.2
+SetEnv HTTP_MOD_REWRITE On

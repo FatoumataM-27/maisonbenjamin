@@ -1,4 +1,7 @@
 <?php
+if (!defined('LARAVEL_START')) {
+    die('Accès direct interdit.');
+}
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;

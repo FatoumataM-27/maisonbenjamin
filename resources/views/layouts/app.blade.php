@@ -561,6 +561,9 @@
                             <a class="nav-link {{ request()->is('activites*') ? 'active' : '' }}" href="{{ route('activites.index') }}">Activités</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link {{ request()->is('galerie*') ? 'active' : '' }}" href="{{ route('galerie.index') }}">Galerie</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link {{ request()->is('contact*') ? 'active' : '' }}" href="{{ route('contact.index') }}">Contact</a>
                         </li>
                     </ul>
@@ -599,6 +602,7 @@
                         <li class="mb-2"><a href="{{ url('/services/picors') }}" class="text-decoration-none">PICORS</a></li>
                         <li class="mb-2"><a href="{{ url('/services/mas') }}" class="text-decoration-none">MAS</a></li>
                         <li class="mb-2"><a href="{{ url('/activites') }}" class="text-decoration-none">Activités</a></li>
+                        <li class="mb-2"><a href="{{ url('/galerie') }}" class="text-decoration-none">Galerie</a></li>
                         <li class="mb-2"><a href="{{ url('/contact') }}" class="text-decoration-none">Contact</a></li>
                     </ul>
                 </div>
