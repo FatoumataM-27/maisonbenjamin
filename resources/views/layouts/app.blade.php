@@ -6,6 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title') - Maison Benjamin</title>
     <meta name="description" content="@yield('meta_description', 'Association Maison Benjamin - Un parcours pour la vie')">
+    <link rel="canonical" href="{{ url()->current() }}">
     
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicon/apple-touch-icon.png') }}">
